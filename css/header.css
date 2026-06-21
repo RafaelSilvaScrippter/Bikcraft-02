@@ -1,0 +1,31 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.lista-navegacao {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.lista-navegacao li a {
+  color: var(--w);
+}
+
+@media (max-width: 650px) {
+  .lista-navegacao li a {
+    background-color: var(--c11);
+    border-radius: 2px;
+    padding: 0.75rem;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+  }
+}
