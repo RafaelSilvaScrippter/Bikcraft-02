@@ -24,6 +24,12 @@
   height: calc(100vh + 120px);
 }
 
+@media (max-width: 1050px) {
+  .imagem-main img {
+    max-height: 60vh;
+  }
+}
+
 .detalhe-shadow {
   box-shadow: inset 0 -120px #fff;
 }

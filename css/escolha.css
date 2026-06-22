@@ -1,0 +1,48 @@
+.escolha {
+  margin-top: 7.5rem;
+}
+
+@media (max-width: 800px) {
+  .escolha {
+    margin-top: 3.5rem;
+  }
+}
+
+.lista-escolha {
+  display: flex;
+  align-items: start;
+  gap: 2.5rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (max-width: 850px) {
+  .lista-escolha {
+    flex-direction: column;
+  }
+}
+
+.escolha-item a p {
+  color: var(--c8);
+  padding-left: 1.5rem;
+}
+
+.detalhe-before {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.detalhe-before::before {
+  content: "";
+  width: 16px;
+  background-color: var(--p1);
+  height: 8px;
+}
+
+.escolha-item a:hover .detalhe-before::before {
+  width: 32px;
+  transition: 0.8s;
+}
