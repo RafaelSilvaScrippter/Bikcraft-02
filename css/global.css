@@ -29,13 +29,6 @@
   line-height: 72px;
 }
 
-@media (max-width: 600px) {
-  .font-1-xxl {
-    font-size: 3rem;
-    line-height: 55px;
-  }
-}
-
 .font-1-m {
   font-size: 1.125rem;
   font-weight: 400;
@@ -48,6 +41,40 @@
 
 .font-1-xl {
   font-size: 2rem;
+}
+
+.font-2-l-b {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.font-1-l {
+  font-size: 1.5rem;
+}
+
+.font-2-s {
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+@media (max-width: 600px) {
+  .font-1-xxl {
+    font-size: 2.8rem;
+    line-height: 55px;
+  }
+
+  .font-2-l {
+    font-size: 1rem;
+    line-height: 22px;
+  }
+
+  .font-2-l-b {
+    font-size: 0.8rem;
+  }
+
+  .font-1-l {
+    font-size: 1rem;
+  }
 }
 
 .uppercase {
@@ -94,5 +121,15 @@
   }
   .mb-9 {
     margin-bottom: 0rem;
+  }
+}
+
+.mb-13 {
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 600px) {
+  .mb-13 {
+    margin-bottom: 3.5rem;
   }
 }
