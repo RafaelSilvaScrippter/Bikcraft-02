@@ -15,7 +15,7 @@
 }
 
 .motor-tecnologia::before {
-  content: url("../img/icones/rastreador.svg");
+  content: url("../img/icones/eletrica.svg");
   display: block;
   margin-bottom: 0.8rem;
 }

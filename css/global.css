@@ -91,6 +91,12 @@
   background-image: linear-gradient(#ffbf00, #f2a50c);
 }
 
+@media (max-width: 600px) {
+  .btn-principal {
+    padding: 0.6rem 1.2rem;
+  }
+}
+
 .detalhe-dot {
   color: var(--p1);
 }
