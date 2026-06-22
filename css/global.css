@@ -32,6 +32,7 @@
 @media (max-width: 600px) {
   .font-1-xxl {
     font-size: 3rem;
+    line-height: 55px;
   }
 }
 
@@ -43,6 +44,10 @@
 .font-2-l {
   font-size: 1.5rem;
   line-height: 36px;
+}
+
+.font-1-xl {
+  font-size: 2rem;
 }
 
 .uppercase {
@@ -67,12 +72,27 @@
   margin-bottom: 2rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 800px) {
   .mb-7 {
     margin-bottom: 1rem;
   }
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
+  .mb-9 {
+    margin-bottom: 0rem;
+  }
 }
