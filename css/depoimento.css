@@ -1,0 +1,40 @@
+.depoimentos {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+blockquote {
+  padding: 3rem;
+  background-color: var(--p1);
+  align-content: end;
+}
+
+blockquote p {
+  font-size: 1.8rem;
+  color: var(--p5);
+  max-width: 24ch;
+  font-family: "Merriweather", serif !important;
+  line-height: 1.5;
+}
+
+blockquote cite {
+  font-family: "Poppins";
+  color: var(--p5);
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .depoimentos {
+    grid-template-columns: 1fr;
+  }
+  blockquote p {
+    font-size: 1.4rem;
+  }
+
+  .depoimentos {
+    margin-top: 2rem;
+  }
+}
