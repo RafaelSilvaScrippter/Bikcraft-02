@@ -1,0 +1,97 @@
+.btn-principal.btn-seguro {
+  background-image: none;
+  color: var(--w);
+  background-color: var(--c10) !important;
+}
+
+.seguros {
+  padding-top: 4rem;
+}
+
+@media (max-width: 650px) {
+  .seguros {
+    padding-top: 2rem;
+  }
+}
+
+.container-seguro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.seguro-item {
+  border-radius: 8px;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  background-color: var(--c12);
+}
+
+.pagamento-plano {
+  display: block;
+  text-align: right;
+}
+
+.topo-plano {
+  display: flex;
+  align-items: start;
+  gap: 1.3rem;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.lista-beneficios {
+  margin-bottom: 2rem;
+}
+
+.lista-beneficios li {
+  margin-bottom: 1.25rem;
+}
+
+.seguro-item a {
+  margin-bottom: 3rem;
+}
+
+.lista-beneficios li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+}
+
+.lista-beneficios li::before {
+  position: absolute;
+  left: -24px;
+  content: url("../img/icones/lista.svg");
+}
+
+@media (max-width: 750px) {
+  .container-seguro {
+    grid-template-columns: 1fr;
+  }
+
+  .seguro-item {
+    padding: 1rem;
+    padding-left: 2.5rem;
+  }
+
+  .lista-beneficios li {
+    font-size: 1rem;
+  }
+
+  .topo-plano {
+    margin-bottom: 1rem;
+  }
+
+  .lista-beneficios {
+    margin-bottom: 1.5rem;
+  }
+
+  .seguro-item a {
+    margin-bottom: 1rem;
+  }
+}

@@ -8,6 +8,22 @@
   background-color: var(--c12);
 }
 
+.bg-dark-02 {
+  background-color: var(--c11);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.c-6 {
+  color: var(--c6);
+}
+
+.c-p1 {
+  color: var(--p1);
+}
+
 .font-primaria {
   font-family: var(--font-primaria);
 }
@@ -75,6 +91,14 @@
   .font-1-l {
     font-size: 1rem;
   }
+
+  .font-1-xl {
+    font-size: 1.6rem;
+  }
+}
+
+.font-2-xs {
+  font-size: 0.8rem;
 }
 
 .uppercase {
