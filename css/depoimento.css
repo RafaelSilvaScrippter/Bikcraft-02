@@ -14,10 +14,11 @@ blockquote {
   background-color: var(--p1);
   align-content: end;
 }
-
-blockquote p {
+.p-depoimento {
   font-size: 1.8rem;
   color: var(--p5);
+  font-style: italic;
+  font-weight: bold;
   max-width: 24ch;
   font-family: "Merriweather", serif !important;
   line-height: 1.5;
