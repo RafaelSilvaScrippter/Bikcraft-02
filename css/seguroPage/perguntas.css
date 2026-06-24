@@ -1,0 +1,51 @@
+dl:nth-child(odd) {
+  border-radius: 8px;
+  background-color: var(--c1);
+}
+
+dl {
+  padding: 1.5rem 2rem;
+}
+
+dt {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+dd {
+  padding-left: 2rem;
+}
+
+dt::before {
+  content: "";
+  background-color: var(--p1);
+  width: 16px;
+  height: 8px;
+  display: block;
+}
+
+.perguntas-frequentes {
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 600px) {
+  .perguntas-frequentes {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  dt::before {
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+
+  dt {
+    display: block;
+  }
+
+  dd {
+    padding-left: 0;
+  }
+}

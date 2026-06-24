@@ -8,6 +8,10 @@
   margin-bottom: 1.2rem;
 }
 
+.copyright {
+  grid-column: 1/ -1;
+}
+
 .contato-lista {
   margin-right: 4rem;
   border-bottom: 2px solid var(--c8);
