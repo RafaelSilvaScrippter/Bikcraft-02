@@ -1,0 +1,119 @@
+.nossas-bicicletas {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-bottom: 7.5rem;
+}
+
+.lista-bikcrafts-bicicletas {
+  margin-bottom: 7.5rem;
+}
+
+.lista-bikcrafts-bicicletas li {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 2fr 2fr;
+}
+
+@media (max-width: 950px) {
+  .lista-bikcrafts-bicicletas li {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lista-bicicletas-atributo {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.lista-bicicletas-atributo div li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.lista-bicicletas-atributo a {
+  place-self: end;
+}
+
+.btn-img-seta {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-img-seta::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../img/icones/seta.svg");
+}
+.conteudo-bicicletas h2::before {
+  content: "";
+  background-color: var(--p1);
+  width: 20px;
+  height: 8px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.lista-bicicletas-atributo div li {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lista-bicicletas-atributo div li::before {
+  width: 25px;
+  height: 25px;
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eletrico-lista-img::before {
+  background-image: url("../../img/icones/eletrica.svg");
+}
+
+.fibra-lista-img::before {
+  background-image: url("../../img/icones/carbono.svg");
+}
+.velocidade-lista-img::before {
+  background-image: url("../../img/icones/velocidade.svg");
+}
+.rastreador-lista-img::before {
+  background-image: url("../../img/icones/rastreador.svg");
+}
+
+.img-bicicletas-bikcraft {
+  display: grid;
+}
+
+.preco-bicicletas {
+  position: absolute;
+  padding: 7px 14px;
+  border-radius: 8px;
+  align-self: start;
+  justify-self: end;
+  margin: 10px;
+  background-color: var(--c12);
+}
+
+@media (max-width: 600px) {
+  .lista-bicicletas-atributo {
+    grid-template-columns: auto;
+    gap: 2rem;
+  }
+
+  .lista-bicicletas-atributo a {
+    place-self: start;
+  }
+}
+
+.box-shadow-bicicleta {
+  padding: 2rem;
+  box-shadow: inset -900px 0 0 var(--c11);
+}
