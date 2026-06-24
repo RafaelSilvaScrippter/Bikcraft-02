@@ -18,6 +18,14 @@
   .lista-bikcrafts-bicicletas li {
     grid-template-columns: 1fr;
   }
+
+  .nossas-bicicletas {
+    margin-bottom: 3rem;
+  }
+
+  .lista-bikcrafts-bicicletas {
+    margin-bottom: 3rem;
+  }
 }
 
 .lista-bicicletas-atributo {
@@ -106,6 +114,11 @@
   .lista-bicicletas-atributo {
     grid-template-columns: auto;
     gap: 2rem;
+  }
+
+  .preco-bicicletas {
+    font-size: 1rem;
+    padding: 0.3rem;
   }
 
   .lista-bicicletas-atributo a {
