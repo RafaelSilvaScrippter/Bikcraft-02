@@ -31,4 +31,8 @@
   .footer {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  footer {
+    margin-top: 0rem;
+  }
 }
