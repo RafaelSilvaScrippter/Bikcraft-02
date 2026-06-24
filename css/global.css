@@ -36,6 +36,10 @@
   font-family: var(--font-secundaria);
 }
 
+.c-4 {
+  color: var(--c4);
+}
+
 .c-w {
   color: var(--w);
 }
@@ -47,6 +51,11 @@
 .font-1-xxl {
   font-size: 4rem;
   line-height: 72px;
+}
+
+.font-1-s {
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .font-1-m {
@@ -78,7 +87,7 @@
 }
 
 .font-2-m {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 600px) {
