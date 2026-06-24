@@ -1,0 +1,145 @@
+.bicicleta-interna-container {
+  padding-top: 4.5rem;
+}
+.container-bicicleta-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-bottom: 6rem;
+  gap: 2.5rem;
+}
+
+@media (max-width: 900px) {
+  .container-bicicleta-grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+  }
+}
+
+.bicicleta-img img {
+  margin-bottom: 20px;
+}
+
+.bicicleta-img-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, auto);
+}
+
+.card-bicicleta-info {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  border-radius: 8px;
+}
+
+.eletrico-info-card h3::before {
+  content: "";
+  display: block;
+
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 0.5rem;
+}
+
+.eletrico-info-card-icone::before {
+  background-image: url("../../../img/icones/eletrica.svg");
+}
+.velocidade-info-card-icone::before {
+  background-image: url("../../../img/icones/velocidade.svg");
+}
+
+.rastreador-info-card-icone::before {
+  background-image: url("../../../img/icones/rastreador.svg");
+}
+
+.fibra-info-card-icone::before {
+  background-image: url("../../../img/icones/carbono.svg");
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.lista-entrega-info li {
+  background-color: var(--c12);
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.4rem;
+  max-width: fit-content;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.lista-entrega-info li::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+}
+
+.icone-entrega::before {
+  background-image: url("../../../img/icones/entrega.svg");
+}
+
+.icone-estoque::before {
+  background-image: url("../../../img/icones/estoque.svg");
+}
+
+.lista-ficha-tecnica {
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.lista-ficha-tecnica li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.lista-ficha-tecnica li:not(:last-child) {
+  border-bottom: 1px solid var(--c9);
+  padding-bottom: 1rem;
+  padding-top: 0, 0.4rem;
+}
+
+.conteudo-bicicleta p {
+  max-width: 35ch;
+}
+
+@media (max-width: 500px) {
+  .btn-grid {
+    margin-bottom: 2rem;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .container-bicicleta-grid {
+    gap: 1rem;
+  }
+
+  .btn-grid a {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-bicicleta-info {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+
+  .ficha-tecninca {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
