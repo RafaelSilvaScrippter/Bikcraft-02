@@ -4,6 +4,10 @@
   background-color: var(--c10) !important;
 }
 
+.nossos-seguros {
+  padding-top: 7.5rem;
+}
+
 .seguros {
   padding-top: 4rem;
   padding-bottom: 6rem;
