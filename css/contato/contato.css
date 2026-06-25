@@ -1,0 +1,37 @@
+.nossos-contato {
+  padding-top: 6rem;
+}
+
+.card-infos-local-item {
+  padding: 3.75rem;
+}
+
+.lista-redes-sociais {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.icone-li-contato {
+  display: flex;
+  align-items: center;
+  gap: 1.125rem;
+  position: relative;
+}
+
+.contato-li::before,
+.contato-email-li::before,
+.contato-telefone-li::before {
+  position: absolute;
+  left: -2rem;
+}
+.contato-li::before {
+  content: url("../../img/icones/local.svg");
+}
+.contato-email-li::before {
+  content: url("../../img/icones/email.svg");
+}
+
+.contato-telefone-li::before {
+  content: url("../../img/icones/telefone.svg");
+}
