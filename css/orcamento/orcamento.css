@@ -1,0 +1,122 @@
+.opcao-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1.5rem;
+}
+
+.card-infos-local-item {
+  padding: 2rem 1.5rem 2.5rem 3rem;
+}
+
+.opcao-item.none {
+  background-color: var(--c10);
+  color: var(--c4);
+}
+
+.opcao-item {
+  background-color: var(--w);
+  padding: 0.8rem 1.5rem 0.8rem 0rem;
+  max-width: 120px;
+  text-align: center;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-contato.orcamento {
+  grid-template-columns: 450px 2fr;
+}
+
+.before-titulo-orcamento {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.before-titulo-orcamento::before {
+  content: "";
+  width: 0.3rem;
+  height: 0.6rem;
+  background-color: var(--p1);
+  display: block;
+}
+
+.opcao-bicicleta {
+  background-color: var(--w);
+  padding: 0.6rem 1.3rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.info-bicicleta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-bicicleta-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+  .container-bicicleta-item {
+    grid-template-columns: 1fr;
+  }
+
+  .card-infos-local-item {
+    padding-left: 1rem;
+  }
+
+  .card-contato.orcamento {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .opcao-container {
+    display: block;
+  }
+
+  .opcao-item {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    padding-left: 1.2rem;
+    text-align: left;
+  }
+}
+
+.container-bicicleta-item img {
+  border-radius: 8px;
+  display: block;
+}
+
+.lista-atributos-bicicleta li {
+  margin-bottom: 0.4rem;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.lista-atributos-bicicleta li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-size: contain;
+  background-position: center;
+}
+
+.eletrico-icone::before {
+  background-image: url("../../img/icones/eletrica.svg");
+}
+
+.fibra-icone::before {
+  background-image: url("../../img/icones/carbono.svg");
+}
+.velocidade-icone::before {
+  background-image: url("../../img/icones/velocidade.svg");
+}
+.rastreador-icone::before {
+  background-image: url("../../img/icones/rastreador.svg");
+}

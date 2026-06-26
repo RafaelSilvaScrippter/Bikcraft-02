@@ -52,6 +52,10 @@
   color: var(--c9);
 }
 
+.c-11 {
+  color: var(--c11);
+}
+
 .font-1-xxl {
   font-size: 4rem;
   line-height: 72px;
