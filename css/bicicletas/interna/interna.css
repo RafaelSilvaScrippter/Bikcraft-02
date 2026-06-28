@@ -163,6 +163,7 @@
 
 .conteudo-seguro-interna {
   padding-bottom: 4rem;
+  padding-top: 6rem;
 }
 
 .box-shadow-seguranca {
@@ -180,6 +181,10 @@
   .seguranca-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
+  }
+
+  .conteudo-seguro-interna {
+    padding-top: 2rem;
   }
 
   .seguranca-container img {
