@@ -1,7 +1,7 @@
 .principal {
   display: grid;
 
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 5.5rem;
 }
 
@@ -15,19 +15,12 @@
 }
 
 .imagem-main {
-  margin-right: -50px;
   padding-right: 30px;
 }
 
 .imagem-main img {
-  object-fit: fill;
-  height: calc(100vh + 120px);
-}
-
-@media (max-width: 1050px) {
-  .imagem-main img {
-    max-height: 60vh;
-  }
+  object-fit: cover;
+  height: 100%;
 }
 
 .detalhe-shadow {
