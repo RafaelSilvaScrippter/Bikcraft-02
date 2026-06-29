@@ -13,9 +13,9 @@
 }
 
 [data-titulo-dt]::after {
-  right: 20px;
+  right: -10px;
   position: absolute;
-  top: -10px;
+  top: -0;
   content: url("../../img/icones/seta-abrir.svg");
 }
 
