@@ -1,0 +1,25 @@
+[data-descricao-dd] {
+  display: none;
+}
+
+[data-descricao-dd].on {
+  display: block;
+}
+
+[data-titulo-dt] {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+[data-titulo-dt]::after {
+  right: -10px;
+  position: absolute;
+  top: -0;
+  content: url("../../img/icones/seta-abrir.svg");
+}
+
+[data-titulo-dt].on::after {
+  rotate: 180deg;
+  transition: 0.3s;
+}
