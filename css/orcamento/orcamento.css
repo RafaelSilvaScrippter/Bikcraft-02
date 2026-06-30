@@ -8,15 +8,14 @@
   padding: 2rem 1.5rem 2.5rem 3rem;
 }
 
-.opcao-item.none {
+.opcao-item {
   background-color: var(--c10);
   color: var(--c4);
 }
 
 .opcao-item {
-  background-color: var(--w);
   padding: 0.8rem 1.5rem 0.8rem 0rem;
-  max-width: 120px;
+  max-width: 200px;
   text-align: center;
   width: 100%;
   border-radius: 6px;
@@ -72,7 +71,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .opcao-container {
     display: block;
   }

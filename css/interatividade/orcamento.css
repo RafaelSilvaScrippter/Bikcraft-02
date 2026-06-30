@@ -1,0 +1,44 @@
+.seguro-card-opcao {
+  display: none;
+}
+
+[data-tab-opcao] {
+  cursor: pointer;
+}
+
+.opcao-item.on {
+  background-color: var(--w);
+  color: var(--c12);
+}
+
+[data-container-opcao].on {
+  display: block !important;
+}
+
+[data-container-opcao] {
+  display: none !important;
+}
+
+[data-opcao-item-seguro] {
+  cursor: pointer;
+  color: var(--w);
+}
+
+[data-opcao-item-seguro].on {
+  background-color: var(--w);
+  color: var(--c12);
+}
+
+.opcao-item-seguro {
+  background-color: var(--c8);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.opcao-item-seguro p {
+  font-size: 1.175rem;
+}
