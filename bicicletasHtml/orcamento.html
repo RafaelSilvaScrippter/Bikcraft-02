@@ -23,7 +23,7 @@
       </a>
       <nav aria-label="navegação primária">
         <ul class="lista-navegacao font-primaria">
-          <li><a class="font-1-m" href="./bicicletas.html">Bicicletas</a></li>
+          <li><a class="font-1-m" href="../bicicletasHtml/bicicletas.html">Bicicletas</a></li>
           <li><a class="font-1-m" href="./seguro.html">Seguros</a></li>
           <li><a class="font-1-m" href="./contato.html">Contato</a></li>
         </ul>
@@ -41,57 +41,71 @@
         <div class=" card-infos-local-item bg-dark c-11">
           <p class="c-5 font-secundaria uppercase font-2-xs mb-7 before-titulo-orcamento">Bikcraft ou seguro</p>
           <div class="opcao-container mb-11">
-            <div class="bicicleta-opcao opcao-item">
+            <div data-tab-opcao class="bicicleta-opcao opcao-item on">
               <p class="font-primaria font-1-m">Bikcraft</p>
             </div>
-            <div class="bicicleta-opcao opcao-item none">
+            <div data-tab-opcao class="bicicleta-opcao opcao-item">
               <p class="font-primaria font-1-m">Seguro</p>
             </div>
           </div>
           <p class="c-5 font-secundaria uppercase font-2-xs mb-7 before-titulo-orcamento">escolha a sua</p>
-          <div class="opcao-bicicleta">
-            <header class="info-bicicleta mb-3">
-              <h3 class="font-secundaria c-11 font-1-m">Nimbus stark</h3>
-              <p class="font-primaria font-1-m">R$ 4999</p>
-            </header>
-            <div class="container-bicicleta-item">
-              <ul class="lista-atributos-bicicleta c-8 font-2-s font-primaria">
-                <li class="eletrico-icone">Motor elétrico</li>
-                <li class="fibra-icone">Fibra de carbono</li>
-                <li class="velocidade-icone">40 km/h</li>
-                <li class="rastreador-icone">rastreador</li>
-              </ul>
-              <img src="../img/bicicleta/nimbus1.jpg" alt="">
+
+          <div data-container-opcao class="container-opcao-bikcraft">
+
+            <div data-opcao-bikcraft class="opcao-bicicleta">
+              <header class="info-bicicleta mb-3">
+                <h3 class="font-secundaria c-11 font-1-m">Nimbus stark</h3>
+                <p class="font-primaria font-1-m">R$ 4999</p>
+              </header>
+              <div class="container-bicicleta-item">
+                <ul class="lista-atributos-bicicleta c-8 font-2-s font-primaria">
+                  <li class="eletrico-icone">Motor elétrico</li>
+                  <li class="fibra-icone">Fibra de carbono</li>
+                  <li class="velocidade-icone">40 km/h</li>
+                  <li class="rastreador-icone">rastreador</li>
+                </ul>
+                <img src="../img/bicicleta/nimbus1.jpg" alt="">
+              </div>
+            </div>
+            <div data-opcao-bikcraft class="opcao-bicicleta">
+              <header class="info-bicicleta mb-3">
+                <h3 class="font-secundaria c-11 font-1-m">Magic Might</h3>
+                <p class="font-primaria font-1-m">R$ 2499</p>
+              </header>
+              <div class="container-bicicleta-item">
+                <ul class="lista-atributos-bicicleta c-8 font-2-s font-primaria">
+                  <li class="eletrico-icone">Motor elétrico</li>
+                  <li class="fibra-icone">Fibra de carbono</li>
+                  <li class="velocidade-icone">40 km/h</li>
+                  <li class="rastreador-icone">rastreador</li>
+                </ul>
+                <img src="../img/bicicleta/nimbus2.jpg" alt="">
+              </div>
+            </div>
+            <div data-opcao-bikcraft class="opcao-bicicleta">
+              <header class="info-bicicleta mb-3">
+                <h3 class="font-secundaria c-11 font-1-m">Nebula Cosmic</h3>
+                <p class="font-primaria font-1-m">R$ 3999</p>
+              </header>
+              <div class="container-bicicleta-item">
+                <ul class="lista-atributos-bicicleta c-8 font-2-s font-primaria">
+                  <li class="eletrico-icone">Motor elétrico</li>
+                  <li class="fibra-icone">Fibra de carbono</li>
+                  <li class="velocidade-icone">40 km/h</li>
+                  <li class="rastreador-icone">rastreador</li>
+                </ul>
+                <img src="../img/bicicleta/nimbus3.jpg" alt="">
+              </div>
             </div>
           </div>
-          <div class="opcao-bicicleta">
-            <header class="info-bicicleta mb-3">
-              <h3 class="font-secundaria c-11 font-1-m">Magic Might</h3>
-              <p class="font-primaria font-1-m">R$ 2499</p>
-            </header>
-            <div class="container-bicicleta-item">
-              <ul class="lista-atributos-bicicleta c-8 font-2-s font-primaria">
-                <li class="eletrico-icone">Motor elétrico</li>
-                <li class="fibra-icone">Fibra de carbono</li>
-                <li class="velocidade-icone">40 km/h</li>
-                <li class="rastreador-icone">rastreador</li>
-              </ul>
-              <img src="../img/bicicleta/nimbus2.jpg" alt="">
+          <div data-container-opcao class="seguro-card-opcao">
+            <div data-opcao-item-seguro class="opcao-item-seguro font-secundaria">
+              <h3 class="ouro-opcao-seguro">Ouro</h3>
+              <p class="font-2-l-b">R$ 299</p>
             </div>
-          </div>
-          <div class="opcao-bicicleta">
-            <header class="info-bicicleta mb-3">
-              <h3 class="font-secundaria c-11 font-1-m">Nebula Cosmic</h3>
-              <p class="font-primaria font-1-m">R$ 3999</p>
-            </header>
-            <div class="container-bicicleta-item">
-              <ul class="lista-atributos-bicicleta c-8 font-2-s font-primaria">
-                <li class="eletrico-icone">Motor elétrico</li>
-                <li class="fibra-icone">Fibra de carbono</li>
-                <li class="velocidade-icone">40 km/h</li>
-                <li class="rastreador-icone">rastreador</li>
-              </ul>
-              <img src="../img/bicicleta/nimbus3.jpg" alt="">
+            <div data-opcao-item-seguro class="opcao-item-seguro font-secundaria">
+              <h3 class="ouro-opcao-seguro">Prata</h3>
+              <p class="font-2-l-b">R$ 199</p>
             </div>
           </div>
         </div>
@@ -188,6 +202,7 @@
       <p class="c-5 font-2-s font-primaria copyright">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script type="module" src="../js/script.js"></script>
 </body>
 
 </html>
