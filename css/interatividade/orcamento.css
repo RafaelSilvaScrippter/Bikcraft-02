@@ -2,7 +2,8 @@
   display: none;
 }
 
-[data-tab-opcao] {
+[data-tab-opcao],
+[data-tab-item-bikcraft] {
   cursor: pointer;
 }
 
@@ -19,12 +20,26 @@
   display: none !important;
 }
 
-[data-opcao-item-seguro] {
+[data-opcao-item-seguro],
+[data-tab-item-bikcraft] {
   cursor: pointer;
   color: var(--w);
 }
 
-[data-opcao-item-seguro].on {
+[data-opcao-bikcraft] {
+  display: none;
+}
+
+[data-tab-item-bikcraft].on {
+  display: none;
+}
+
+[data-opcao-bikcraft].on {
+  display: grid;
+}
+
+[data-opcao-item-seguro].on,
+[data-tab-item-bikcraft].on {
   background-color: var(--w);
   color: var(--c12);
 }

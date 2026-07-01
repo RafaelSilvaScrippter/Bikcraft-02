@@ -6,6 +6,8 @@ export function tabNav() {
     "[data-opcao-item-seguro]",
   );
 
+    dataItemOpcao[0].classList.add('on')
+
   function removeClassAll(element) {
     element.forEach((item) => item.classList.remove("on"));
   }
